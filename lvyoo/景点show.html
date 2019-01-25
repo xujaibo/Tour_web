@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/view_show.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="container_top">
+        <div class="left">
+            <div class="left_top">
+                <span>我的心里，住着另一个自己。
+                    他现在一定在世界的某个角落流浪着
+                    。我的愿望很简单，就是想飞去看看外面的世界，飞去找找流浪的自己。</span>
+            </div>
+            <div class="left_mid_icon">
+                <a href="">
+                    <img src="images/icon.jpg" alt="">
+                </a>
+            </div>
+            <div class="left_user_info">
+                我是 &nbsp;
+                <a href=""><span>lzx</span></a>
+                &nbsp;我去过&nbsp;
+                <a href=""><span>6</span></a>
+                &nbsp;个景点
+            </div>
+        </div>
+        <div class="right">
+        <div class="itemCon" style="float: left">
+            <div id="ChinaMap" style="margin: 50px;"></div>
+            <div id="stateTip" style="position: absolute;left: 100%;text-align: left;display: inline;"></div>
+        </div>
+        <div id="mapTipContent" style="width: 900px;margin: 0 auto;display: none">
+            <div class="mapTipText mapTipText0">
+                <div class="mapTipImg"><img src="images/jilin.jpg" alt=""/></div>
+                <div class="mapTipList">
+                    <h2><a href="">黑龙江<span>Heilongjiang</span></a></h2>
+                    <ul>
+                        <li><a href="">哈尔滨</a></li>
+                        <li><a href="">漠河</a></li>
+                        <li><a href="">五大连池</a></li>
+                        <li><a href="">兴凯湖</a></li>
+                        <li><a href="">雪乡</a></li>
+                        <li><a href="">大兴安岭</a></li>
+                        <li><a href="">齐齐哈尔</a></li>
+                        <li><a href="">牡丹江</a></li>
+                        <li><a href="">伊春</a></li>
+                        <li><a href="">大庆</a></li>
+                        <li><a href="">镜泊湖</a></li>
+                        <li><a href="">帽儿山</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mapTipText mapTipText1">
+                <div class="mapTipImg"><img src="images/changbaishan.jpg" alt=""/></div>
+                <div class="mapTipList">
+                    <h2><a href="">吉林<span>Jilin</span></a></h2>
+                    <ul>
+                        <li><a href="">长白山</a></li>
+                        <li><a href="">长春</a></li>
+                        <li><a href="">延吉</a></li>
+                        <li><a href="">雾凇岛</a></li>
+                        <li><a href="">集安</a></li>
+                        <li><a href="">吉林市</a></li>
+                        <li><a href="">查干湖</a></li>
+                        <li><a href="">三角龙湾</a></li>
+                        <li><a href="">通化</a></li>
+                        <li><a href="">四平</a></li>
+                        <li><a href="">松原</a></li>
+                        <li><a href="">白城</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mapTipText mapTipText2">
+                <div class="mapTipImg"><img src="images/liaoning.jpg" alt=""/></div>
+                <div class="mapTipList">
+                    <h2><a href="">辽宁<span>Liaoning</span></a></h2>
+                    <ul>
+                        <li><a href="">大连</a></li>
+                        <li><a href="">丹东</a></li>
+                        <li><a href="">沈阳</a></li>
+                        <li><a href="">兴城</a></li>
+                        <li><a href="">葫芦岛</a></li>
+                        <li><a href="">绥中</a></li>
+                        <li><a href="">旅顺</a></li>
+                        <li><a href="">锦州</a></li>
+                        <li><a href="">抚顺</a></li>
+                        <li><a href="">鞍山</a></li>
+                        <li><a href="">本溪</a></li>
+                        <li><a href="">营口</a></li>
+                        <li><a href="">盘锦</a></li>
+                        <li><a href="">长兴岛</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mapTipText mapTipText5">
+                <div class="mapTipImg"><img src="images/jiangsu.jpg" alt=""/></div>
+                <div class="mapTipList">
+                    <h2><a href="">江苏<span>Jiangsu</span></a></h2>
+                    <ul>
+                        <li><a href="">总统府</a></li>
+                        <li><a href="">中山陵</a></li>
+                        <li><a href="">夫子庙</a></li>
+                        <li><a href="">明故宫</a></li>
+                        <li><a href="">明孝陵</a></li>
+                        <li><a href="">雨花台</a></li>
+                        <li><a href="">拙政园</a></li>
+                        <li><a href="">虎丘</a></li>
+                        <li><a href="">寒山寺</a></li>
+                        <li><a href="">金鸡湖</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mapTipText mapTipText7">
+                <div class="mapTipImg"><img src="images/anhui.jpg" alt=""/></div>
+                <div class="mapTipList">
+                    <h2><a href="">安徽<span>Anhui</span></a></h2>
+                    <ul>
+                        <li><a href="">黄山</a></li>
+                        <li><a href="">西递</a></li>
+                        <li><a href="">宏村</a></li>
+                        <li><a href="">天柱山</a></li>
+                        <li><a href="">九华山</a></li>
+                        <li><a href="">徽州古城</a></li>
+                        <li><a href="">龙川</a></li>
+                        <li><a href="">潜口民宅</a></li>
+                        <li><a href="">棠樾牌坊群</a></li>
+                        <li><a href="">呈坎</a></li>
+                        <li><a href="">芜湖方特</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="strategy">
+        <div class="strategy_head">
+            <i></i>
+            <h3>热门旅游攻略</h3>
+            <span class="desc">各地的旅游达人都在为你量身打造最有价值的路线地图</span>
+            <span class="more"><a href="">更多</a></span>
+        </div>
+        <ul class="strategy_ul">
+            <li class="strategy_li">
+                <a href=""><img src="http://gs01.ifeekr.com/2013/07/19/09250761278c6b07465fc91037b4ad4a5073ec.jpg!215X235" alt=""></a>
+            </li>
+            <li class="strategy_li">
+                <a href=""><img src="http://gs01.ifeekr.com/2013/07/19/0752131a952695b151b953334b09f66e8e614f.jpg!215X235" alt=""></a>
+            </li>
+            <li class="strategy_li">
+                <a href=""><img src="http://gs01.ifeekr.com/2013/07/19/080533ea8707a5c96c4f0c49c8d2a3916f392b.jpg!215X235" alt=""></a>
+            </li>
+            <li class="strategy_li">
+                <a href=""><img src="http://gs01.ifeekr.com/2013/07/19/0746475146dab50d44457b008bb4082b98721f.jpg!215X235"  alt=""></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="season">
+        <!--<fieldset class="haveborder">-->
+            <!--<legend>-->
+                <!--<i></i>-->
+                <!--<h3>当季出发去这里</h3>-->
+                <!--&lt;!&ndash;<span class="season_desc">各地的旅游达人都在为你量身打造最有价值的路线地图</span>&ndash;&gt;-->
+            <!--</legend>-->
+        <!--</fieldset>-->
+        <div class="out_title">
+            <div class="title">
+                <span>当季出发</span>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="season_content">
+            <div class="content_left">
+                <a href=""><img src="images/hk.jpg" alt=""></a>
+                <h3>
+                    <a href="">香港</a>
+                    <span class="title">动感繁华之都，时尚购物天堂</span>
+                </h3>
+                <div class="desc_hk">香港精致小巧，城市节奏忙碌紧张而有条不紊，公共交通网络完善，娱乐业发达，夜生活繁华璀璨，是集世界美食于一地的“美食之都”，更是名符其实的购物天堂。徜徉于闹市区之外的公共绿地，能够充分感受到香港这个繁华都市所包蕴的商业文明和自然之美。</div>
+            </div>
+            <div class="content_right">
+                <ul class="right_ul">
+                    <li class="li01">
+                        <a href=""><img src="images/sanya.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">三亚</a>
+                        </h4>
+
+                        <div class="desc_text"> 三亚，古称崖州。是海南省的第二大城市。是我国东...  </div>
+                    </li>
+                    <li class="li02">
+                        <a href=""><img src="images/nanjingsmall.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">南京</a>
+                        </h4>
+
+                        <div class="desc_text"> 南京最早有“金陵八景图”、“金陵二十名胜”、“...</div>
+                    </li>
+                    <li class="li03">
+                        <a href=""><img src="images/pingyao.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">平遥</a>
+                        </h4>
+
+                        <div class="desc_text"> 平遥古城始建于西周，已有2800年的历史，是一座完...</div>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/jiuzhaigou.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">九寨沟</a>
+                        </h4>
+
+                        <div class="desc_text"> 九寨沟景区长约六公里，面积6万多公顷，有长海、...  </div>
+                    </li>
+                </ul>
+                <ul class="ul_down">
+                    <li class="li01">
+                        <a href=""><img src="images/sanya.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">三亚</a>
+                        </h4>
+
+                        <div class="desc_text">三亚，古称崖州。是海南省的第二大城市。是我国东...  </div>
+                    </li>
+                    <li class="li02">
+                        <a href=""><img src="images/nanjingsmall.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">南京</a>
+                        </h4>
+
+                        <div class="desc_text"> 南京最早有“金陵八景图”、“金陵二十名胜”、“...</div>
+                    </li>
+                    <li class="li03">
+                        <a href=""><img src="images/pingyao.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">平遥</a>
+                        </h4>
+
+                        <div class="desc_text">平遥古城始建于西周，已有2800年的历史，是一座完...</div>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/jiuzhaigou.jpg" alt=""></a>
+                        <h4>
+                            <a href="" title="三亚">九寨沟</a>
+                        </h4>
+
+                        <div class="desc_text"> 九寨沟景区长约六公里，面积6万多公顷，有长海、...  </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="recommend">
+        <div class="out_title">
+            <div class="title">
+                <span>出游推荐</span>
+            </div>
+            <div class="line"></div>
+        </div>
+
+
+        <div class="recommend_up">
+            <div class="up_left">
+                <img src="http://stopic01.ifeekr.com/2013/07/19/0704493a2e4291b6f56ae762aa7dbf5cb95da2.jpg!210X148" alt="">
+                <div class="left_content">
+                    <div class="content_flex">
+                        <h3>【 看海 】</h3>
+                        <span class="hai_span">收拾行囊，看海去 </span>
+                    </div>
+                    <div class="hai_area">
+                        <table>
+                            <tr>
+                                <td><a href="">东极岛</a></td>
+                                <td><a href="">鼓浪屿</a></td>
+                                <td><a href="">蓬莱</a></td>
+                                <td><a href="">涠洲岛</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">长滩岛</a></td>
+                                <td><a href="">芭堤雅</a></td>
+                                <td><a href="">威海</a></td>
+                                <td><a href="">三亚</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">普吉岛</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href=""> 冲绳</a></td>
+                                <td><a href="">垦丁 </a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href=""> 夏威夷</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href="">青岛</a></td>
+                                <td><a href="">三亚</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="up_left">
+                <img src="http://stopic01.ifeekr.com/2013/07/19/071143f13eb2cabe5c3bc1d72ba833e0216429.jpg!210X148" alt="">
+                <div class="left_content">
+                    <div class="content_flex">
+                        <h3>【 看海 】</h3>
+                        <span class="hai_span">收拾行囊，看海去 </span>
+                    </div>
+                    <div class="hai_area">
+                        <table>
+                            <tr>
+                                <td><a href="">东极岛</a></td>
+                                <td><a href="">鼓浪屿</a></td>
+                                <td><a href="">蓬莱</a></td>
+                                <td><a href="">涠洲岛</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">长滩岛</a></td>
+                                <td><a href="">芭堤雅</a></td>
+                                <td><a href="">威海</a></td>
+                                <td><a href="">三亚</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">普吉岛</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href=""> 冲绳</a></td>
+                                <td><a href="">垦丁 </a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href=""> 夏威夷</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href="">青岛</a></td>
+                                <td><a href="">三亚</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="recommend_up">
+            <div class="up_left">
+                <img src="http://stopic01.ifeekr.com/2013/07/19/0714272216925c6e3fbb0f8ed61dd4ee8d813b.jpg!210X148" alt="">
+                <div class="left_content">
+                    <div class="content_flex">
+                        <h3>【 看海 】</h3>
+                        <span class="hai_span">收拾行囊，看海去 </span>
+                    </div>
+                    <div class="hai_area">
+                        <table>
+                            <tr>
+                                <td><a href="">东极岛</a></td>
+                                <td><a href="">鼓浪屿</a></td>
+                                <td><a href="">蓬莱</a></td>
+                                <td><a href="">涠洲岛</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">长滩岛</a></td>
+                                <td><a href="">芭堤雅</a></td>
+                                <td><a href="">威海</a></td>
+                                <td><a href="">三亚</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">普吉岛</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href=""> 冲绳</a></td>
+                                <td><a href="">垦丁 </a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href=""> 夏威夷</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href="">青岛</a></td>
+                                <td><a href="">三亚</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="up_left">
+                <img src="http://stopic01.ifeekr.com/2013/07/19/071743a5ef72588ca57d57868ca2b54119537c.jpg!210X148" alt="">
+                <div class="left_content">
+                    <div class="content_flex">
+                        <h3>【 看海 】</h3>
+                        <span class="hai_span">收拾行囊，看海去 </span>
+                    </div>
+                    <div class="hai_area">
+                        <table>
+                            <tr>
+                                <td><a href="">东极岛</a></td>
+                                <td><a href="">鼓浪屿</a></td>
+                                <td><a href="">蓬莱</a></td>
+                                <td><a href="">涠洲岛</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">长滩岛</a></td>
+                                <td><a href="">芭堤雅</a></td>
+                                <td><a href="">威海</a></td>
+                                <td><a href="">三亚</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="">普吉岛</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href=""> 冲绳</a></td>
+                                <td><a href="">垦丁 </a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href=""> 夏威夷</a></td>
+                                <td><a href="">巴厘岛</a></td>
+                                <td><a href="">青岛</a></td>
+                                <td><a href="">三亚</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------recommend end up------------>
+    <div class="around">
+        <div class="out_title">
+            <div class="title">
+                <span>你的周边</span>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="around_area">
+            <ul>
+                <li>
+                    <a href=""><img src="http://scenic.ifeekr.com/2013/03/01/10091512e0cb8c48b1cefa1476c1ee2d7fdac3.jpg!200X200" alt=""></a>
+                    <h4><a href="">沈厅</a></h4>
+                    <div class="around_desc">沈厅由沈万三后裔沈本仁于清乾隆七年(1742年)所建。七进五门楼，大小100多间房屋，分布在100米长的...</div>
+                </li>
+                <li>
+                    <a href=""><img src="http://scenic.ifeekr.com/2013/03/01/080101f6a660175ef960a586608e3e4a020e66.jpeg!200X200" alt=""></a>
+                    <h4><a href="">寒山寺</a></h4>
+                    <div class="around_desc">寒山寺位于苏州城西十里的枫桥镇，创建于梁代天监年间，初名“妙利普明寺院”。相传唐贞观年间寒山...</div>
+                </li>
+                <li>
+                    <a href=""><img src="http://scenic.ifeekr.com/2013/03/01/0803587fdf47324d1d179318e9e983f97446e1.jpeg!200X200" alt=""></a>
+                    <h4><a href="">周庄</a></h4>
+                    <div class="around_desc">悠远的历史，给古镇造就了诸多胜景。著名建筑学家罗哲文盛赞周庄“不但是江苏省的一个宝，而且是国...</div>
+                </li>
+                <li>
+                    <a href=""><img src="http://scenic.ifeekr.com/2013/03/01/08005001f95675d90f41976c42e92d8cc686c3.jpeg!200X200" alt=""></a>
+                    <h4><a href="">拙政园</a></h4>
+                    <div class="around_desc">拙政园，江南园林的代表，苏州园林中面积最大的古典山水园林。位于苏州市东北街一百七十八号，是苏...</div>
+                </li>
+                <li>
+                    <a href=""><img src="http://scenic.ifeekr.com/2013/03/01/0801261a5343743c632a6715dc169eace33b8a.JPG!200X200" alt=""></a>
+                    <h4><a href="">观前街</a></h4>
+                    <div class="around_desc">坐落在苏州市繁华位置上的观前街，是成街于清朝时期的百年商业老街，街上老店名店云集，名声远播海...</div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+<script src="js/chinaMapConfig.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/map-min.js"></script>
+<script src="js/raphael-min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('#ChinaMap').SVGMap({
+            mapWidth: 806,
+            mapHeight: 396
+        });
+    });
+</script>
+</body>
+</html>
