@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>会员注册</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css_regist.css">
+
+
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.html">已有账号？去登录</a></li>
+                <li><a href="#">去广场看看</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+</header>
+
+<section>
+    <div class="container">
+        <div class="section1">
+            <div class="top">
+                轻松注册
+            </div>
+            <div class="seperator"></div>
+            <div class="main">
+                <table>
+                    <form action="#">
+                        <tr>
+                            <td class="col-1">Telephone</td>
+                            <td><input type="text" class="text" id="txt_telephone"></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1"></td>
+                            <td><div id="tel_error"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1">Password</td>
+                            <td><input type="password" class="text" id="txt_password" ></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1"></td>
+                            <td><div id="password_error"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1">Password-confirm</td>
+                            <td><input type="password" class="text" id="txt_password_confirm"></td>
+                        </tr>
+                        <tr>
+                            <td class="col-1"></td>
+                            <td><div id="confirm_error"></div></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><input type="button" class="btn-regist" value="注册" id="btn_regist">
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4"><img src="images/logo.png" alt=""></div>
+            <div class="col-lg-4 second_child">
+                <span>© Copyright by Feekr|浙ICP备13003499</span>
+            </div>
+            <div class="col-lg-4">
+                <span>关注我们</span>
+                <span><img src="images/二维码.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/js_regist.js"></script>
+<script src="js/utils.js"></script>
+
+
+</body>
+</html>
