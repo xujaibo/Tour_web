@@ -1,0 +1,494 @@
+body ul li{
+    margin: 0;
+    padding: 0;
+}
+
+/*这是头开始*/
+.navbar-inverse {
+    background: #505050;
+    border: none;
+    border-radius: 0px;
+}
+.navbar-header .navbar-brand img{
+    width: 120px;
+    /*height: 100%;*/
+    position: relative;
+    top: -12px;
+}
+.search_img{
+    position: relative;
+    left: -30px;
+}
+
+#nav01 a{
+    font-size: 1.1em;
+    color: white;
+}
+
+#nav01 a:hover{
+    color: #cbcbcb;
+}
+
+.nav_list{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 100%;
+    margin-left: -90px;
+    top: 50px;
+}
+.nav_list div{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    background: #666666;
+    display: block;
+}
+.hidden{
+    display: block;
+}
+.nav_list a{
+    text-decoration: none;
+    color: #FFD9D8;
+}
+
+
+
+/*header {*/
+    /*!*background: #949494;*!*/
+    /*margin-bottom: -20px;*/
+/*}*/
+
+/*.navbar-inverse {*/
+    /*background: #4b4b4b;*/
+    /*border: none;*/
+    /*border-radius: 0px;*/
+/*}*/
+
+/*.search_div {*/
+    /*height: 36px;*/
+    /*line-height: 30px;*/
+    /*background: white;*/
+    /*border-radius: 5px;*/
+
+/*}*/
+
+/*.search_input {*/
+    /*color: black;*/
+    /*height: 22px;*/
+    /*background: white;*/
+    /*outline: none;*/
+    /*border: none;*/
+    /*box-shadow: none*/
+/*}*/
+
+/*.search_input:focus {*/
+    /*outline: none;*/
+    /*box-shadow: none*/
+/*}*/
+
+/*.search_div > a {*/
+    /*padding-top: 10px;*/
+/*}*/
+
+/*.navbar-header .navbar-brand img {*/
+    /*width: 50px;*/
+/*}*/
+
+/*#nav01 {*/
+    /*float: left;*/
+/*}*/
+
+/*#nav01 a {*/
+    /*font-size: 1.1em;*/
+    /*color: white;*/
+/*}*/
+
+/*#nav01 a:hover {*/
+    /*color: #cbcbcb;*/
+/*}*/
+
+/*#nav01 form {*/
+    /*margin-left: 550px;*/
+/*}*/
+
+/*.search_img {*/
+    /*float: right;*/
+    /*position: relative;*/
+    /*top: -30px;*/
+    /*left: 175px;*/
+/*}*/
+
+/*.dropdown {*/
+    /*float: right;*/
+/*}*/
+
+/*.dropbtn {*/
+    /*background-color: #4b4b4b;*/
+    /*color: white;*/
+    /*padding: 10px;*/
+    /*font-size: 16px;*/
+    /*border: none;*/
+    /*!*指针变成小手*!*/
+    /*cursor: pointer;*/
+/*}*/
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*脱离文档流*/
+    background-color: #4CAF50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+    background-color: rgb(41, 31, 175)
+}
+
+/*在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+/*.dropd:hover .dropbtn {*/
+/*background-color: blue;*/
+/*}*/
+/*这是头结束*/
+
+/*这是主体开始*/
+section {
+    width: 100%;
+    /*background: #26b245;*/
+}
+
+section .container {
+    /*height: 900px;*/
+    background: #d0d0d0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+section .container-fluid .top {
+    width: 100%;
+    height: 120px;
+    background: #f7f7f7;
+    border-bottom: solid 1px #aeaeae;
+    line-height: 120px;
+}
+
+section .container-fluid .top img {
+    width: 80px;
+    margin-left: 120px;
+
+}
+
+section .container-fluid .top a {
+    font-size: 1.3em;
+    margin-left: 50px;
+}
+
+section .container-fluid .main .container {
+    background: white;
+}
+
+.main .container .top1 {
+    height: 60px;
+    border-bottom: solid 1px #aeaeae;
+}
+.top1 ul{
+    display: flex;
+    justify-content: center;
+}
+
+.top1 ul li{
+    list-style: none;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+.fontbold{
+    font-weight:bold
+}
+
+
+
+
+.user_icon{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    /*left: 30%;*/
+    background: rgba(255, 0, 0, 0.34);
+}
+.user_name{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    left: 28%;
+    background: rgba(0, 0, 255, 0.25);
+}
+.main001{
+    display: none;
+}
+.main001 .left {
+    width: 66%;
+    /*height: 900px;*/
+    /*background: yellow;*/
+    margin: 40px 0;
+    border-right: solid 1px #aeaeae;
+    float: left;
+}
+
+.main001 .left .left1 {
+    width: 95%;
+    /*height: 100px;*/
+}
+.main001 .left .left1 ul li{
+    list-style: none;
+    padding: 20px 0;
+    border-bottom: solid 1px #cccccc;
+}
+
+.main001 .left .left1 ul li a{
+    /*text-decoration: none;*/
+    color: #1abc9c;
+}
+.left2{
+    margin-top: 30px;
+    width: 95%;
+    /*border: 1px solid red;*/
+}
+.left2 .erweima{
+    margin-top: 30px;
+    margin-left: 40px
+}
+.left2 p{
+    position: relative;
+    top: -70px;
+    left: 150px;
+}
+.left2 :nth-child(3){
+    font-size: 20px;
+}
+
+
+
+.right {
+    width: 300px;
+    height: 500px;
+    margin: 40px 0;
+    float: right;
+    /*border: 1px red solid;*/
+}
+.img_head{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #EEEEEE;
+    border-radius: 50%;
+    margin: auto;
+}
+.right li{
+    list-style: none;
+}
+.right1 a{
+    color: #1ABC9C;
+    font-size: 16px;
+    /*margin-top: 50px;*/
+    margin-left: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.right2{
+    width: 80%;
+    margin: 30px auto;
+    border-top: 1px #999999 solid;
+    border-bottom: 1px solid #999999;
+    box-sizing: border-box;
+    padding:  5px 15px;
+}
+.right2 span{
+    display: inline-block;
+    line-height: 22px;
+}
+.right3,.right5{
+    width: 80%;
+    /*margin: auto;*/
+    margin-left: 35px;
+    /*border: 1px springgreen solid;*/
+}
+.right3 a,.right5 span{
+    display: inline-block;
+    width: 23%;
+    /*border: 1px red solid;*/
+    /*margin-left: 10px;*/
+    text-align: center;
+}
+.right3 a{
+    color: #1ABC9C;
+    font-size: 18px;
+    font-weight: bold;
+}
+[class^="main000"]{
+    width: 90%;
+    margin: 40px auto;
+    /*height: 600px;*/
+    background: rgba(255, 0, 0, 0.11);
+    display: none;
+}
+
+/*------   子页面设计   main 2          ----*/
+.article{
+    width: 30%;
+    height: 240px;
+    float: left;
+    margin: 30px 15px;
+    background: rgba(0, 0, 255, 0.21);
+}
+.article_img{
+    width: 100%;
+    height: 200px;
+    /*background: rgba(26, 188, 156, 0.2);*/
+}
+.article_img img{
+    width: 100%;
+    height: 100%;
+}
+.article a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 5px;
+    /*margin-bottom: 12px;*/
+}
+.article a:hover{
+    color: white;
+    background: #1abc9c;
+}
+.follow,.fans{
+    width: 30%;
+    height: 150px;
+    float: left;
+    margin: 30px 15px;
+    background: rgba(255, 14, 22, 0.21);
+}
+.follow_user_icon{
+    height: 150px;
+    height: 150px;
+}
+.follow_user_icon img{
+    width: 130px;
+    height: 120px;
+}
+.follow_user_name{
+    position: relative;
+    top: -145px;
+    left: 150px;
+    text-decoration: none !important;
+    font-size: 18px;
+    color: #1ABC9C;
+}
+.follow_user_info{
+    position: relative;
+    top: -105px;
+    left: 150px;
+}
+.follow_user_info a{
+    text-decoration: none !important;
+    font-size: 16px;
+    color: #1ABC9C;
+    line-height: 24px;
+}
+
+
+/*--------------------------------------------------*/
+.main_xianshi{
+    display: block !important;
+}
+
+/*这是主体结束*/
+
+/*这是footer开始*/
+footer {
+    width: 100%;
+    height: 150px;
+    background: #4b4b4b;
+    box-sizing: border-box;
+}
+
+.footer_none{
+    display: none !important;
+}
+
+footer .container {
+    height: 150px;
+    /*background: gainsboro;*/
+    box-sizing: border-box;
+}
+
+footer .container .row {
+    box-sizing: border-box;
+}
+
+footer .container .row .col-lg-4 {
+    height: 150px;
+    background: #4b4b4b;
+}
+
+footer .container .row .col-lg-4:first-child {
+    text-align: center;
+    line-height: 150px;
+
+}
+
+footer .container .row .second_child {
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer .container .row .col-lg-4:last-child {
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer .container .row .col-lg-4:last-child img {
+    width: 100px;
+}
+
+/*这是footer结束*/
+
+
+
+
+
