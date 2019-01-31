@@ -1,0 +1,256 @@
+.container-fluid{
+    padding:0;
+}
+.container-fluid{
+    /*background: #666666;*/
+}
+/*-------header------------*/
+.navbar-inverse {
+    background: #505050;
+    border: none;
+    border-radius: 0px;
+}
+.navbar-header .navbar-brand img{
+    width: 120px;
+    /*height: 100%;*/
+    position: relative;
+    top: -12px;
+}
+.search_img{
+    position: relative;
+    left: -30px;
+}
+
+#nav01 a{
+    font-size: 1.1em;
+    color: white;
+}
+
+#nav01 a:hover{
+    color: #cbcbcb;
+}
+
+.nav_list{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 100%;
+    margin-left: -90px;
+    top: 50px;
+}
+.nav_list div{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    background: #666666;
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.nav_list a{
+    text-decoration: none;
+    color: #FFD9D8;
+}
+/*----------------login_box----------------*/
+
+
+
+
+
+
+
+
+.container{
+    /*background: wheat;*/
+    box-sizing: border-box;
+}
+.outer_right,.outer_left{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.outer_left{
+    width: 65%;
+    /*height: 400px;*/
+    float: left;
+    padding-left: 10px;
+    /*background: blue;*/
+}
+.outer_right{
+    width: 33%;
+    height: 1200px;
+    float: right;
+    border-left: 1px gray solid;
+    padding-left: 20px;
+    /*background: #FFD9D8;*/
+}
+.top_txt{
+    margin: auto;
+    line-height: 40px;
+    width: 80%;
+    font-size: 16px;
+    text-indent: 25px;
+}
+.top_a{
+    margin-bottom: 40px;
+    width: 100%;
+}
+.top_a img{
+    width: 100%;
+}
+.right_news{
+    width: 80%;
+    margin: 50px auto;
+}
+.mid_txt{
+    font-size: 14px;
+    line-height: 30px;
+}
+.left_mid_txt :first-child{
+    margin-bottom: 20px;
+}
+.left_mid_txt :first-child a{
+    text-decoration: none;
+     font-size: 26px;
+     color: black;
+}
+.left_mid_txt :first-child a:hover{
+    background: #1ABC9C;
+    color: white;
+}
+.about{
+    display: inline-block;
+    margin-left: 20px;
+    color: #bbb;
+}
+.titles{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: #666666 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.article{
+    width: 31%;
+    min-width: 190px;
+    margin-top: 30px;
+}
+.article img{
+    width: 100%;
+}
+.article a{
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.article a:hover{
+    color: white;
+    background: #1abc9c;
+}
+.article span{
+    color: #bbb;
+}
+
+.outer_right li{
+    width: 220px;
+    list-style: none;
+    margin-top: 20px;
+    /*padding-bottom: 15px;*/
+    border-bottom: 1px solid #EEEEEE;
+}
+.outer_right a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.outer_right li .user_name{
+    position: relative;
+    top: -8px;
+    left: 6px;
+    color: #999999;
+}
+.outer_right li .user_name:hover{
+    text-decoration: #666666;
+    color: #0067B8;
+}
+.outer_right li span{
+    position: relative;
+    top: -8px;
+    left: 6px;
+    color: #999999;
+    font-size: 14px;
+}
+.outer_right li .article_name{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: -20px;
+    color: #313131;
+}
+.outer_right li .article_name:hover{
+    color: white;
+    background: #1ABC9C;
+}
+
+
+
+/*这是footer开始*/
+footer {
+    width: 100%;
+    height: 150px;
+    background: #4b4b4b;
+    box-sizing: border-box;
+}
+
+.footer_none{
+    display: none !important;
+}
+
+footer .container {
+    height: 150px;
+    /*background: gainsboro;*/
+    box-sizing: border-box;
+}
+
+footer .container .row {
+    box-sizing: border-box;
+}
+
+footer .container .row .col-lg-4 {
+    height: 150px;
+    background: #4b4b4b;
+}
+
+footer .container .row .col-lg-4:first-child {
+    text-align: center;
+    line-height: 150px;
+
+}
+
+footer .container .row .second_child {
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer .container .row .col-lg-4:last-child {
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer .container .row .col-lg-4:last-child img {
+    width: 100px;
+}
+
+
+
+
