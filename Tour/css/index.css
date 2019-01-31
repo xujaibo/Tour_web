@@ -1,0 +1,139 @@
+/*这是头开始*/
+header{
+    /*background: #949494;*/
+    margin-bottom: -20px;
+}
+.navbar-inverse {
+    background: #4b4b4b;
+    border: none;
+    border-radius: 0px;
+}
+
+.navbar-header .navbar-brand img {
+    width: 50px;
+}
+
+#nav01 a {
+    font-size: 1.1em;
+    color: white;
+}
+
+#nav01 a:hover {
+    color: #cbcbcb;
+}
+
+/*这是登录后的样式*/
+.div_user_info{
+    float: right;
+}
+
+.dropbtn {
+    background-color: #4b4b4b;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    /*指针变成小手*/
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*脱离文档流*/
+    background-color: #4CAF50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: rgb(41, 31, 175)
+}
+
+/*在鼠标移上去后显示下拉菜单 */
+.div_user_info:hover .dropdown-content {
+    display: block;
+}
+/*这是头结束*/
+
+
+
+/*这是主体开始*/
+section{
+    width: 100%;
+    /*background: #26b245;*/
+}
+section .container{
+    height: 600px;
+    background: #d0d0d0;
+}
+
+/*这是主体结束*/
+
+
+
+/*这是footer开始*/
+footer{
+    width: 100%;
+    height: 150px;
+    background: #4b4b4b;
+    box-sizing: border-box;
+}
+
+footer .container{
+    height: 150px;
+    /*background: gainsboro;*/
+    box-sizing: border-box;
+}
+
+footer .container .row{
+    box-sizing: border-box;
+}
+
+footer .container .row .col-lg-4{
+    height: 150px;
+    background:#4b4b4b ;
+}
+
+
+footer .container .row .col-lg-4:first-child{
+     text-align: center;
+     line-height: 150px;
+
+}
+
+footer .container .row .second_child{
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+footer .container .row .col-lg-4:last-child{
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer .container .row .col-lg-4:last-child img{
+    width: 100px;
+}
+
+/*这是footer结束*/
