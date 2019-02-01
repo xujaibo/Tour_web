@@ -36,7 +36,7 @@
       <path value="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="845" />
     <option name="y" value="20" />
     <option name="width" value="875" />
@@ -47,6 +47,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,7 +64,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,11 +112,13 @@
       <workItem from="1548426335818" duration="687000" />
       <workItem from="1548428203829" duration="448000" />
       <workItem from="1548906473200" duration="40000" />
+      <workItem from="1548906546161" duration="627000" />
+      <workItem from="1548907227493" duration="410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12279000" />
+    <option name="totallyTimeSpent" value="13316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -250,7 +252,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/js_regist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1220" />
+        <state relative-caret-position="-845" />
       </provider>
     </entry>
   </component>
