@@ -648,41 +648,54 @@ section .container{
 }
 
 /*这是footer开始*/
-footer{
+footer {
     width: 100%;
-    /*height: 200px;*/
+    height: 150px;
+    background: #4b4b4b;
+    box-sizing: border-box;
+}
+
+.footer_none{
+    display: none !important;
+}
+
+footer .container {
+    height: 150px;
+    /*background: gainsboro;*/
+    box-sizing: border-box;
+}
+
+footer .container .row {
+    box-sizing: border-box;
+}
+
+footer .container .row .col-lg-4 {
+    height: 150px;
     background: #4b4b4b;
 }
 
-footer .container{
-    height: 160px;
-    /*background: gainsboro;*/
-}
-
-footer .container .row .col-lg-4{
-    height: 160px;
-}
-
-
-footer .container .row .col-lg-4:first-child{
-     text-align: center;
-     line-height: 160px;
-}
-
-footer .container .row .second_child{
+footer .container .row .col-lg-4:first-child {
     text-align: center;
-    line-height: 160px;
-    color: white;
-    font-size: 1.3em;
+    line-height: 150px;
+
 }
 
-
-footer .container .row .col-lg-4:last-child{
+footer .container .row .second_child {
     text-align: center;
-    line-height: 160px;
-    color: white;
-    font-size: 1.3em;
+    line-height: 150px;
+    color: #999;
+    font-size: 16px;
+}
+
+footer .container .row .col-lg-4:last-child {
+    text-align: center;
+    line-height: 150px;
+    color: #999;
+    font-size: 16px;
+}
+
+footer .container .row .col-lg-4:last-child img {
+    width: 100px;
 }
 
 
-/*这是footer结束*/

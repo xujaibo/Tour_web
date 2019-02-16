@@ -4,6 +4,7 @@ body,a{
     font-size: 12px;
     text-decoration: none;
 }
+
 /*-----------模态框-----------*/
 #mask {
     display: none;

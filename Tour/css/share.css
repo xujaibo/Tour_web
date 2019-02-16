@@ -13,6 +13,7 @@ body,ul,li{
     /*height: 600px;*/
     /*background-color: yellow;*/
     float: left;
+    margin: 0 auto;
 }
 /*-------header------------*/
 .navbar-inverse {
@@ -75,7 +76,7 @@ body,ul,li{
 }
 
 .view .swiper-container {
-    width: 710px;
+    width: 700px;
     height:400px;
 }
 
@@ -257,7 +258,7 @@ body,ul,li{
 }
 .share .share_title {
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .share .share_title .span1{
     color: #333;
@@ -273,7 +274,7 @@ body,ul,li{
     float: left;
     width: 80%;
     height: 15px;
-    margin-top: 20px;
+    margin-top: 30px;
     /*background-color: #00b3ee;*/
     border-bottom: solid 1px #eee;
     margin-left: 10px;
@@ -383,15 +384,15 @@ footer .container .row .col-lg-4:first-child {
 footer .container .row .second_child {
     text-align: center;
     line-height: 150px;
-    color: white;
-    font-size: 1.1em;
+    color: #999;
+    font-size: 16px;
 }
 
 footer .container .row .col-lg-4:last-child {
     text-align: center;
     line-height: 150px;
-    color: white;
-    font-size: 1.1em;
+    color: #999;
+    font-size: 16px;
 }
 
 footer .container .row .col-lg-4:last-child img {

@@ -11,7 +11,7 @@ document.querySelector('#btn_landing').onclick=function () {
    if(checkPassword() && checkTelphone()){
    //    开始提交后台
        var user={"telephone":tel.value,"password":password.value};
-       postData('http://192.168.2.3:8080/api/user/login/',user,function (res) {
+       postData('http://192.168.2.77:8080/api/user/login/',user,function (res) {
            if(res && res.status_code=='10003'){
                localStorage.setItem('token',res.token);
                if(sessionStorage.getItem('from')){

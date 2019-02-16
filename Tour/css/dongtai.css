@@ -580,18 +580,19 @@ footer .container .row .col-lg-4:first-child {
 footer .container .row .second_child {
     text-align: center;
     line-height: 150px;
-    color: white;
-    font-size: 1.1em;
+    color: #999;
+    font-size: 16px;
 }
 
 footer .container .row .col-lg-4:last-child {
     text-align: center;
     line-height: 150px;
-    color: white;
-    font-size: 1.1em;
+    color: #999;
+    font-size: 16px;
 }
 
 footer .container .row .col-lg-4:last-child img {
     width: 100px;
 }
+
 

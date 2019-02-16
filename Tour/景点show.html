@@ -4,11 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/jshow.css">
 
 
 </head>
 <body>
+<div class="header">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav01" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="nav01">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">广场</a></li>
+                    <li><a href="#">主题</a></li>
+                    <li><a href="#">分享汇</a></li>
+                    <li><a href="#">景点show</a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" id="login">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="你想去哪？">
+                        <a href="#"><img src="images/search.svg" alt="" class="search_img"></a>
+                    </div>
+                    <!--<button type="submit" class="btn btn-default">搜索</button>-->
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+
+    <!--<script src="js_1.js"></script>-->
+</div>
 <div class="container">
     <div class="container_top">
         <div class="left">
@@ -52,7 +96,7 @@
                         <li><a href="">伊春</a></li>
                         <li><a href="">大庆</a></li>
                         <li><a href="">镜泊湖</a></li>
-                        <li><a href="">帽儿山</a></li>
+                        <!--<li><a href="">帽儿山</a></li>-->
                     </ul>
                 </div>
             </div>
@@ -124,13 +168,13 @@
                         <li><a href="">黄山</a></li>
                         <li><a href="">西递</a></li>
                         <li><a href="">宏村</a></li>
-                        <li><a href="">天柱山</a></li>
-                        <li><a href="">九华山</a></li>
                         <li><a href="">徽州古城</a></li>
+                        <li><a href="">九华山</a></li>
+                        <li><a href="">呈坎</a></li>
                         <li><a href="">龙川</a></li>
                         <li><a href="">潜口民宅</a></li>
-                        <li><a href="">棠樾牌坊群</a></li>
-                        <li><a href="">呈坎</a></li>
+                        <!--<li><a href="">棠樾牌坊群</a></li>-->
+                        <li><a href="">天柱山</a></li>
                         <li><a href="">芜湖方特</a></li>
                     </ul>
                 </div>
@@ -224,37 +268,55 @@
                     <li class="li01">
                         <a href=""><img src="images/sanya.jpg" alt=""></a>
                         <h4>
-                            <a href="" title="三亚">三亚</a>
+                            <a href="" title="三亚">上海</a>
                         </h4>
 
-                        <div class="desc_text">三亚，古称崖州。是海南省的第二大城市。是我国东...  </div>
+                        <div class="desc_text">上海 被誉为东方明珠的上海在黄浦江两岸正在展翅翱翔...</div>
                     </li>
                     <li class="li02">
                         <a href=""><img src="images/nanjingsmall.jpg" alt=""></a>
                         <h4>
-                            <a href="" title="三亚">南京</a>
+                            <a href="" title="三亚">厦门</a>
                         </h4>
 
-                        <div class="desc_text"> 南京最早有“金陵八景图”、“金陵二十名胜”、“...</div>
+                        <div class="desc_text">厦门市是我国五个经济特区之一，由厦门岛、鼓浪屿...</div>
                     </li>
                     <li class="li03">
                         <a href=""><img src="images/pingyao.jpg" alt=""></a>
                         <h4>
-                            <a href="" title="三亚">平遥</a>
+                            <a href="" title="三亚">三亚</a>
                         </h4>
 
-                        <div class="desc_text">平遥古城始建于西周，已有2800年的历史，是一座完...</div>
+                        <div class="desc_text">三亚，古称崖州。是海南省的第二大城市。是我国东...</div>
                     </li>
                     <li>
                         <a href=""><img src="images/jiuzhaigou.jpg" alt=""></a>
                         <h4>
-                            <a href="" title="三亚">九寨沟</a>
+                            <a href="" title="三亚">北京</a>
                         </h4>
 
-                        <div class="desc_text"> 九寨沟景区长约六公里，面积6万多公顷，有长海、...  </div>
+                        <div class="desc_text">北京，中华人民共和国首都、中央直辖市、中国国家...
+                        </div>
                     </li>
 
                 </ul>
+                <!--<ul class="ul_down">-->
+                    <!--<li>-->
+                        <!--<span>•</span><a href="">大理</a>： 风花雪月，苍山洱海-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<span>•</span><a href="">大理</a>： 风花雪月，苍山洱海-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<span>•</span><a href="">大理</a>： 风花雪月，苍山洱海-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<span>•</span><a href="">大理</a>： 风花雪月，苍山洱海-->
+                    <!--</li>-->
+                    <!--<li></li>-->
+                    <!--<li></li>-->
+
+                <!--</ul>-->
             </div>
         </div>
 
@@ -318,35 +380,35 @@
                 <img src="http://stopic01.ifeekr.com/2013/07/19/071143f13eb2cabe5c3bc1d72ba833e0216429.jpg!210X148" alt="">
                 <div class="left_content">
                     <div class="content_flex">
-                        <h3>【 看海 】</h3>
-                        <span class="hai_span">收拾行囊，看海去 </span>
+                        <h3>【 情侣 】</h3>
+                        <span class="hai_span">一起牵手去旅行 </span>
                     </div>
                     <div class="hai_area">
                         <table>
                             <tr>
-                                <td><a href="">东极岛</a></td>
-                                <td><a href="">鼓浪屿</a></td>
-                                <td><a href="">蓬莱</a></td>
-                                <td><a href="">涠洲岛</a></td>
+                                <td><a href="">西湖</a></td>
+                                <td><a href=""> 凤凰</a></td>
+                                <td><a href=""> 长岛</a></td>
+                                <td><a href=""> 凤凰</a></td>
 
                             </tr>
                             <tr>
-                                <td><a href="">长滩岛</a></td>
-                                <td><a href="">芭堤雅</a></td>
-                                <td><a href="">威海</a></td>
-                                <td><a href="">三亚</a></td>
+                                <td><a href=""> 阳朔</a></td>
+                                <td><a href=""> 厦门</a></td>
+                                <td><a href=""> 丽江</a></td>
+                                <td><a href=""> 三亚</a></td>
 
                             </tr>
                             <tr>
-                                <td><a href="">普吉岛</a></td>
-                                <td><a href="">巴厘岛</a></td>
-                                <td><a href=""> 冲绳</a></td>
+                                <td><a href=""> 斐济</a></td>
+                                <td><a href=""> 北海道</a></td>
+                                <td><a href=""> 巴黎</a></td>
                                 <td><a href="">垦丁 </a></td>
 
                             </tr>
                             <tr>
-                                <td><a href=""> 夏威夷</a></td>
-                                <td><a href="">巴厘岛</a></td>
+                                <td><a href=""> 威尼斯</a></td>
+                                <td><a href="">爱丁堡</a></td>
                                 <td><a href="">青岛</a></td>
                                 <td><a href="">三亚</a></td>
                             </tr>
@@ -363,37 +425,37 @@
                 <img src="http://stopic01.ifeekr.com/2013/07/19/0714272216925c6e3fbb0f8ed61dd4ee8d813b.jpg!210X148" alt="">
                 <div class="left_content">
                     <div class="content_flex">
-                        <h3>【 看海 】</h3>
-                        <span class="hai_span">收拾行囊，看海去 </span>
+                        <h3>【 古城 】</h3>
+                        <span class="hai_span">穿越千年的记忆 </span>
                     </div>
                     <div class="hai_area">
                         <table>
                             <tr>
-                                <td><a href="">东极岛</a></td>
-                                <td><a href="">鼓浪屿</a></td>
-                                <td><a href="">蓬莱</a></td>
-                                <td><a href="">涠洲岛</a></td>
+                                <td><a href="">凤凰</a></td>
+                                <td><a href=""> 平遥</a></td>
+                                <td><a href=""> 丹巴</a></td>
+                                <td><a href=""> 北京</a></td>
 
                             </tr>
                             <tr>
-                                <td><a href="">长滩岛</a></td>
-                                <td><a href="">芭堤雅</a></td>
-                                <td><a href="">威海</a></td>
-                                <td><a href="">三亚</a></td>
+                                <td><a href=""> 西安</a></td>
+                                <td><a href=""> 丽江</a></td>
+                                <td><a href=""> 大理</a></td>
+                                <td><a href=""> 南京</a></td>
 
                             </tr>
                             <tr>
-                                <td><a href="">普吉岛</a></td>
-                                <td><a href="">巴厘岛</a></td>
-                                <td><a href=""> 冲绳</a></td>
-                                <td><a href="">垦丁 </a></td>
+                                <td><a href=""> 马六甲</a></td>
+                                <td><a href=""> 庆州 </a></td>
+                                <td><a href=""> 奈良</a></td>
+                                <td><a href=""> 罗马</a></td>
 
                             </tr>
                             <tr>
                                 <td><a href=""> 夏威夷</a></td>
-                                <td><a href="">巴厘岛</a></td>
-                                <td><a href="">青岛</a></td>
-                                <td><a href="">三亚</a></td>
+                                <td><a href=""> 华沙</a></td>
+                                <td><a href=""> 开罗</a></td>
+                                <td><a href=""> 雅典 </a></td>
                             </tr>
                         </table>
                     </div>
@@ -403,37 +465,37 @@
                 <img src="http://stopic01.ifeekr.com/2013/07/19/071743a5ef72588ca57d57868ca2b54119537c.jpg!210X148" alt="">
                 <div class="left_content">
                     <div class="content_flex">
-                        <h3>【 看海 】</h3>
-                        <span class="hai_span">收拾行囊，看海去 </span>
+                        <h3>【 摄影 】</h3>
+                        <span class="hai_span">镜头里的梦幻世界 </span>
                     </div>
                     <div class="hai_area">
                         <table>
                             <tr>
-                                <td><a href="">东极岛</a></td>
-                                <td><a href="">鼓浪屿</a></td>
-                                <td><a href="">蓬莱</a></td>
+                                <td><a href="">婺源 </a></td>
+                                <td><a href="">泰山</a></td>
+                                <td><a href=""> 元阳</a></td>
                                 <td><a href="">涠洲岛</a></td>
 
                             </tr>
                             <tr>
-                                <td><a href="">长滩岛</a></td>
-                                <td><a href="">芭堤雅</a></td>
+                                <td><a href=""> 九寨沟</a></td>
+                                <td><a href=""> 西藏</a></td>
                                 <td><a href="">威海</a></td>
-                                <td><a href="">三亚</a></td>
+                                <td><a href=""> 青海</a></td>
 
                             </tr>
                             <tr>
                                 <td><a href="">普吉岛</a></td>
                                 <td><a href="">巴厘岛</a></td>
                                 <td><a href=""> 冲绳</a></td>
-                                <td><a href="">垦丁 </a></td>
+                                <td><a href=""> 柬埔寨</a></td>
 
                             </tr>
                             <tr>
                                 <td><a href=""> 夏威夷</a></td>
-                                <td><a href="">巴厘岛</a></td>
+                                <td><a href=""> 尼泊尔</a></td>
                                 <td><a href="">青岛</a></td>
-                                <td><a href="">三亚</a></td>
+                                <td><a href=""> 新疆</a></td>
                             </tr>
                         </table>
                     </div>
@@ -480,8 +542,22 @@
         </div>
 
     </div>
-
 </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4"><img src="images/logo.png" alt=""></div>
+            <div class="col-lg-4 second_child">
+                <span>© Copyright by Feekr|浙ICP备13003499</span>
+            </div>
+            <div class="col-lg-4">
+                <span>关注我们</span>
+                <img src="images/二维码.png" height="100" width="100"/>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script src="js/chinaMapConfig.js"></script>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/map-min.js"></script>
