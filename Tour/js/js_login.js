@@ -11,13 +11,15 @@ document.querySelector('#btn_landing').onclick=function () {
    if(checkPassword() && checkTelphone()){
    //    开始提交后台
        var user={"telephone":tel.value,"password":password.value};
-       postData('http://192.168.2.77:8080/api/user/login/',user,function (res) {
+       postData('http://127.0.0.1:8080/api/user/login/',user,function (res) {
            if(res && res.status_code=='10003'){
                localStorage.setItem('token',res.token);
+               localStorage.setItem('telephone',res.telephone);
+               // localStorage.setItem('name',res.name);
                if(sessionStorage.getItem('from')){
                    location.href=sessionStorage.getItem('from');
                }else {
-                   location.href='homepage.html';
+                   location.href='0_homepage.html';
                }
            }
 

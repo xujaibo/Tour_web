@@ -12,7 +12,7 @@ document.querySelector('#btn_regist').onclick=function () {
    if(checkPassword() && checkTelphone() && checkConfrim()){
    //    开始提交后台
        var user={"telephone":tel.value,"password":password.value};
-       postData('http://192.168.2.77:8080/api/user/person/',user,function (res) {
+       postData('http://127.0.0.1:8080/api/user/person/',user,function (res) {
            if(res && res.status_code=='10001'){
                alert(res.status_text);
            }else {

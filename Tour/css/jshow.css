@@ -180,7 +180,7 @@ body {
     height: 140px;
     /*background: red;*/
     margin:auto;
-    border: 5px solid #E4E4E4;
+    border: 1px solid #E4E4E4;
     border-radius: 50%;
     /*box-sizing: border-box;*/
 }
@@ -382,7 +382,7 @@ body {
 
 }
 .season_content .content_right li{
-    width:19%;
+    width:25%;
     /*height: 300px;*/
     /*background-color: #00b3ee;*/
     float: left;
@@ -513,7 +513,7 @@ body {
 
 .recommend_up .left_content .content_flex .hai_span{
     margin-left: 5px;
-    margin-top: 3px;
+    margin-top:10px;
 
 
 }
